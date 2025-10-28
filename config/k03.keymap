@@ -65,11 +65,21 @@
 &bootloader  &trans  &trans  &trans  &trans  &trans                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL
 &trans       &trans  &trans  &trans  &trans  &trans                    &trans        &trans        &trans            &trans        &trans        &studio_unlock
 &trans       &trans  &trans  &trans  &trans  &trans                    &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOL_UP  &trans        &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans    &trans  &out OUT_USB  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &trans        &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans    &tog 4  &out OUT_USB  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &trans        &trans
                      &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans            &trans
             >;
 
             display-name = "Adjust";
+        };
+
+        rpgm {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &kp X   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &tog 4     &trans  &trans          &trans          &trans           &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &kp ENTER  &trans  &trans          &trans          &trans
+            >;
         };
     };
 };
