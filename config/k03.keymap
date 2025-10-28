@@ -78,7 +78,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp X   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &tog 4  &trans  &trans          &trans          &trans           &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &none   &trans  &trans          &trans          &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans          &trans
             >;
 
             label = "RPGM";
